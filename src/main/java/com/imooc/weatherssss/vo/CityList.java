@@ -16,10 +16,6 @@ import java.util.List;
  * @date 2019/5/17 8:12
  */
 @Data
-@XmlRootElement(name ="c")
-@XmlAccessorType(XmlAccessType.FIELD)
 public class CityList {
-
-    @XmlElement(name ="d")
     private List<City> cityList;
 }
